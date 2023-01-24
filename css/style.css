@@ -1,0 +1,68 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+span {
+  display: block;
+  line-height: 2rem;
+}
+.container-top{
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+  width: 350px;
+  border: 3px solid black;
+}
+.display-window{
+  text-align: right;
+  margin: 0 auto;
+  width: 250px;
+  height:75px;
+  border: 2px solid black;
+  /* font-family: '' */
+  font-size: 24px;
+  padding: 5px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+li{
+  text-align: center;
+  min-width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+}
+button{
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
